@@ -1,5 +1,6 @@
 const mongoose=require('mongoose');
-const Ecommerce =mongoose.Schema;//database
+//database
+const Ecommerce =mongoose.Schema;
 const Products = new mongoose.Schema({//users collection no 1
     product_id:{
         type:String,

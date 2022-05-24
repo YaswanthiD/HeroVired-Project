@@ -27,6 +27,7 @@ app.get("/sellerforgotpassword",(req,res)=>{
     res.sendFile(path.resolve("pages/sforgotpassword.html"));
 });
 
+//posting seller forgot password
 app.post("/sellerforgotpassword",(req,res)=>{
     a=req.body.email;
     if(!a){
